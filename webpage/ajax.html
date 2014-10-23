@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Crash Course</title>
+	<link rel="stylesheet" href="styles/styles.css" type="text/css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- // <script src="javascript/jquery-2.1.1.min.js"></script> -->
+	<script type = "text/javascript" src="javascript/ajax.js"></script>
+</head>
+
+<body>
+	<div id="page">
+		<div id="page-top">
+			<div id="nav-row">
+				<ul id="nav">
+			      <li class="nav-lines"><a href="index.html">HOME</a></li>
+			      <li class="nav-lines"><a href="form.html">FORM</a></li>
+			      <li class="nav-lines"><a href="#">AJAX</a></li>
+			      <li ><a href="#">NOTHING</a></li>
+			   </ul>
+			</div>
+			<div id='hidden'>Now you see me!!!</div>
+		</div>
+
+		<div id="main-content">
+			<div id="page-content">
+				<div id="page-title">
+					<h1>Flickr API request</h1>
+				</div>
+				<div id="body-content">
+					<div class="section-form" style="height: 220px;">
+						APIs (application programming interfaces) allow developers to send requests to third-party servers to get information and post data.  JavaScript can execute these requests while the user is browsing and return the results to the page.
+						<br><br>
+						This brings up the issue/technique of AJAX (asynchronous javascript &amp; xhtml).  Ajax is when the javascript hits a code block to execute a request, instead of waiting for the server to respond before it moves on, javascript goes past and handles the rest of the code.  The request response is handled in a CALLBACK function, which is always carried out after the response is returned.
+					</div>
+
+					<form name="flickr" action ="#" method = "#">
+					<fieldset id="flickr-form">
+							<div id="form-text">Give a keyword that we will look up on Flickr:</div>
+							<p>
+								<label for="name">Keyword : </label>
+								<input type="text" id="keyword" name="keyword" class="form-input"/>
+							</p>
+							<input type="submit" value="Submit" name = "submit" id="form-submit">
+
+					</fieldset>
+
+				</form>
+				<h2>RESULTS:</h2>
+				<div id="results">
+				</div>
+				</div>
+			</div>
+			<div id="footer">
+					<ul id="footer-nav">
+				      <li class="footer-li">2014 &copy; Logan Watanabe</li>
+				      <li class="footer-li">lwatanab@andrew.cmu.edu</li>
+				      <li class="footer-li">70-643</li>
+				   </ul>
+			</div>
+		</div>
+	<div>
+</body>
+</html>

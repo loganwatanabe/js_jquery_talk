@@ -1,0 +1,100 @@
+<html>
+<head>
+	<title>Crash Course</title>
+	<link rel="stylesheet" href="styles/styles.css" type="text/css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- // <script src="javascript/jquery-2.1.1.min.js"></script> -->
+	<script type = "text/javascript" src="javascript/form.js"></script>
+</head>
+
+<body>
+	<div id="page">
+		<div id="page-top">
+			<div id="nav-row">
+				<ul id="nav">
+			      <li class="nav-lines"><a href="index.html">HOME</a></li>
+			      <li class="nav-lines"><a href="#">FORM</a></li>
+			      <li class="nav-lines"><a href="ajax.html">AJAX</a></li>
+			      <li id='nothing'><a href="#">NOTHING</a></li>
+			   </ul>
+			</div>
+			<div id='hidden'>Now you see me!!!</div>
+		</div>
+
+		<div id="main-content">
+			<div id="page-content">
+				<div id="page-title">
+					<h1>Volunteer Registration</h1>
+				</div>
+				<div id="body-content">
+					<div class="section-form">
+						Javascript can be used to evaluate HTML forms as they are filled out, to check input types, regex, match input to data, and you can also submit the form via javascript wthout leaving the page.
+					</div>
+
+					<form id="page-form" name="volunteer" action ="index.html" method = "post">
+					<fieldset id="volunteer-form">
+							<div id="form-text">* indicates required (and validated) fields</div>
+							<p>
+								<label for="name">Name * : </label>
+								<input type="text" name="name" id="name" class="form-input"/>
+							</p>
+							<p>
+								<label>Username * : </label>
+								<input type="text"  name="username" id="username" class="form-input"/>
+							</p>
+							<p>
+								<label>Email * : </label>
+								<input type="text"  name="email" id="email" class="form-input"/>
+							</p>
+							<p>
+								<label for="gender">Gender * : </label>
+								<div class="form-input">
+									<input type="radio" name="gender" value="male">Male<br>
+									<input type="radio" name="gender" value="female">Female
+								</div>
+							</p>
+							<p>
+								<label>Age : </label>
+								<select name="age" id="age" class="form-input">
+									<option value="">--Select an Age Range--</option>
+									<option value="0">12 or younger</option>
+									<option value="1">13 - 17</option>
+									<option value="2">19 - 25</option>
+									<option value="3">26 - 59</option>
+									<option value="4">60 or older</option>
+								</select>
+							</p>
+							<p>
+								<label for="area">Area of Volunteering : </label>
+								<div class="form-input">
+									<input type="checkbox" id="area1" name="area" value="kids">Children's Program<br>
+									<input type="checkbox" id="area2" name="area" value="swim">Swimming<br>
+									<input type="checkbox" id="area3" name="area" value="field">Field Management<br>
+									<input type="checkbox" id="area4" name="area" value="score">Scorekeeper<br>
+									<input type="checkbox" id="area5" name="area" value="senior">Senior Program
+								</div>
+							</p>
+							<p>
+								<label for="notes">Tell us about yourself: </label>
+								<textarea name="notes" id="notes" rows="10" cols="30" class="form-input">
+								</textarea>
+							</p>
+							<input type="submit" value="Submit" id="submit-button" name = "submit" id="form-submit">
+
+					</fieldset>
+
+				</form>
+				</div>
+			</div>
+			<div id="footer">
+					<ul id="footer-nav">
+				      <li class="footer-li">2014 &copy; Logan Watanabe</li>
+				      <li class="footer-li">lwatanab@andrew.cmu.edu</li>
+				      <li class="footer-li">70-643</li>
+				   </ul>
+			</div>
+		</div>
+	<div>
+</body>
+</html>

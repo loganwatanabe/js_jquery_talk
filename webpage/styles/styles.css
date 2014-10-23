@@ -1,0 +1,341 @@
+body{
+	/*background-color: #A9E2F3;*/
+	background-image: url('../images/green_cup.png');
+}
+
+#hidden{
+	width: 190px;
+	height: 150px;
+	float: right;
+	position: absolute;
+	background-color: #E6E6E6;
+	bottom: -150px;
+	right: 0px;
+	z-index: 1;
+	display: none;
+	text-align: center;
+	box-shadow: 0px 5px 23px 4px rgba(50, 50, 50, 1);
+
+}
+
+#page{
+	background-image: url('../images/halftone.png');
+	box-shadow: 0px 5px 23px 4px rgba(50, 50, 50, 1);
+	width: 80%;
+	min-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#page-top{
+	height: 180px;
+	background-image: url('../images/banner.jpg');
+	background-size: 100% 100%;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+#word{
+	position: absolute;
+	top: 0px;
+	left: 180px;
+	height: 100%;
+}
+
+#logo{
+	width: 25%;
+	float: left;
+	position: absolute;
+	left: 5px;
+	top: 90px;
+}
+
+
+#nav-row{
+	width: 75%;
+	margin-left: 2%;
+	margin-right: 0px;
+	padding: 0px;
+	height: 50px;
+	background-color: #E6E6E6;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	box-shadow: 0px -9px 30px 0px rgba(50, 50, 51, 0.71);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+#nav{
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	width: 100%;
+	height: 100%;
+	padding-left: 0px;
+	margin: 0px;
+	white-space: nowrap;
+}
+
+.nav-lines{
+	border-right: 1px solid #ccc;
+}
+
+#nav li{
+	float: left;
+	width: 186px;
+	min-width: 186px;
+	padding: auto;
+	text-align: center;
+	height: 100%;
+	display: table;
+}
+
+ #nav li a {
+    text-decoration: none;
+    padding: auto;
+    font-weight: bold;
+    color: #303030;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+#nav li a:hover {
+	background-color: #909090;
+	color: #E0E0E0;
+}
+
+#nav li a:active {
+	background-color: #909090;
+	color: #009933;
+}
+
+#main-content{
+	position: relative;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 50px;
+	/**box-shadow: 0px 5px 23px 4px rgba(50, 50, 50, 1);**/
+	min-height: 420px;
+	background-image: url('../images/halftone.png');
+}
+
+
+
+#page-content{
+	background-color: #fff;
+	color: #444;
+	font-family: 'Droid Serif', verdana, arial, serif;
+	padding-left: 36px;
+	padding-right: 36px;
+	min-height: 360px;
+	margin-top: 18px;
+	padding-top: 12px;
+	margin-bottom: 48px;
+	padding-bottom: 48px;
+	/*box-shadow: 4px 4px 12px -2px rgba(50, 50, 50, 0.75);*/
+}
+
+#page-title{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #663333;
+	/*padding-top: 36px;*/
+}
+
+
+#footer{
+	position: absolute;
+	bottom: 0px;
+	height: 70px;
+	width: 95%;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	display: table;
+}
+
+#footer-nav{
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: lighter;
+	font-family: verdana,helvetica,arial,sans-serif;
+	font-size: 13px;
+	color: #069;
+	width: 88%;
+	min-width: 0;
+	height: 100%;
+	margin: 0 0 0 0;
+	vertical-align: middle;
+}
+
+#footer-nav li{
+	float: left;
+	display: inline;
+	width: 33%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#footer-img{
+	width: 6%;
+	display: inline-block;
+	margin-left: 8px;
+}
+#cnc{
+	height: 66px;
+	display:block;
+    margin:auto;
+}
+
+hr{
+	color: #B8B8B8;
+	background-color: #B8B8B8;
+}
+
+h3{
+	font-weight: 500;
+}
+
+/**  PAGE SPECIFIC CSS BELOW  **/
+
+/**   INDEX    **/
+
+
+#index-main-border{
+	width: 650px;
+	height: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+	background:url('../images/manoa-wide.jpeg') no-repeat center center;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#index-main-pic{
+	width: 650px;
+	height: 220px;
+}
+
+#color-changer{
+	width: 100%;
+	height: 360px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#index-table tr{
+	padding-left: 48px;
+	padding-right: 48px;
+
+}
+
+.small-font{
+	margin-top: 6px;
+	padding-left: 16px;
+	padding-right: 36px;
+	font-size: 12px;
+	font-family: 'Droid Serif', verdana, arial, serif;
+}
+
+#index-table td{
+	width: 360px;
+	padding-top: 36px;
+}
+
+.index-img-header{
+	margin-bottom: 2px;
+}
+
+.index-tiles{
+	height: 180px;
+	width: 380px;
+	margin-left: 10px;
+	box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+#index-p{
+	padding-left: 48px;
+	padding-right: 48px;
+}
+
+
+/**  PROGRAMS AND FACILITIES**/
+
+.section{
+	padding-left: 24px;
+	height: 160px;
+	margin-bottom: 28px;
+	position: relative;
+}
+
+.section p{
+	padding-left: 12px;
+	padding-right: 80px;
+	font-size: 16px;
+}
+
+.section img{
+	box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
+	margin-left: 22px;
+}
+
+.section-pic{
+	float: right;
+	height: 160px;
+}
+
+
+/****/
+
+
+
+
+
+/**  FORM  **/
+
+.section-form{
+	padding-left: 24px;
+	height: 100px;
+	margin-bottom: 28px;
+	position: relative;
+}
+
+#volunteer-form{
+
+}
+
+
+
+label{
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+    clear: left;
+    width: 25%;
+    text-align: right;
+}
+
+
+.form-input{
+	left: 25%;
+	display: inline-block;
+	margin-left: 42px;
+}
+
+#form-submit{
+	margin-left: 360px;
+}
+
+#form-text{
+	margin-left: 280px;
+}
+
+
